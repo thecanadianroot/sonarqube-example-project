@@ -1,1 +1,3 @@
 # sonarqube-example-project
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=thecanadianroot_sonarqube-example-project&metric=bugs)](https://sonarcloud.io/dashboard?id=thecanadianroot_sonarqube-example-project)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=thecanadianroot_sonarqube-example-project&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=thecanadianroot_sonarqube-example-project)
