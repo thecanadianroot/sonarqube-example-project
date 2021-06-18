@@ -17,8 +17,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt update
-          sudo apt install build-essential cmake g++ unzip
+          apt update
+          apt install -y build-essential cmake g++ unzip
 
       - name: Build project
         run: |
