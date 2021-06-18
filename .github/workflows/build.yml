@@ -17,7 +17,7 @@ jobs:
 
       - name: Build project
         run: |
-          build-wrapper  --out-dir build ./build.sh
+          build-wrapper-linux-x86-64 --out-dir build ./build.sh
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
