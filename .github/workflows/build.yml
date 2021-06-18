@@ -25,7 +25,7 @@ jobs:
           chmod +x build.sh
           wget https://sonarcloud.io/static/cpp/build-wrapper-linux-x86.zip
           unzip build-wrapper-linux-x86.zip
-          ./build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir build ./build.sh
+          ./build-wrapper-linux-x86/build-wrapper-linux-x86-64 --out-dir cmake-build-debug ./build.sh
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
